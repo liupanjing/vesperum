@@ -1,0 +1,6 @@
+from_id,relation,to_id,source,visible_label,notes
+glass_mayor,belongs_to,glass_council,欢迎仪式,隶属,镇长代表镇议会
+glass_council,covers_up,crack_system,地下档案,包庇,是否为制度性决策仍待确认
+glass_baker,witnessed,event_night_transport,面包师证言,目击,面包师说法可能不完整
+file_tower_reading,conflicts_with,file_happiness_report,圣塔终端,矛盾,圣塔数据与镇议会报告不一致
+glass_farmer,harmed_by,identity_erasure,地下农夫证言,受害,孩子无法获得治疗

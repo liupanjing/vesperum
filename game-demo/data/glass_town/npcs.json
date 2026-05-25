@@ -1,0 +1,38 @@
+[
+  {
+    "id": "glass_mayor",
+    "name": "镇长",
+    "chapter": "glass_town",
+    "tags": ["male", "official", "rich", "order", "beneficiary", "father"],
+    "base_attitude": 10,
+    "role": "主线关键 NPC",
+    "notes": "温和礼貌，相信牺牲少数人能保护多数人。"
+  },
+  {
+    "id": "glass_crack_leader",
+    "name": "裂纹者领袖",
+    "chapter": "glass_town",
+    "tags": ["female", "poor", "exile", "freedom", "sacrificed", "radical"],
+    "base_attitude": -20,
+    "role": "潜在 Boss",
+    "notes": "不信任勇者，可能走向暴力公开真相。"
+  },
+  {
+    "id": "glass_baker",
+    "name": "面包师",
+    "chapter": "glass_town",
+    "tags": ["male", "commoner", "merchant", "local", "order", "bystander"],
+    "base_attitude": 5,
+    "role": "普通居民代表",
+    "notes": "知道有些人消失，但不愿追问。"
+  },
+  {
+    "id": "glass_farmer",
+    "name": "地下农夫",
+    "chapter": "glass_town",
+    "tags": ["male", "poor", "farmer", "father", "sacrificed", "victim_family"],
+    "base_attitude": -10,
+    "role": "隐藏账本反馈 NPC",
+    "notes": "孩子因身份抹除无法得到治疗。"
+  }
+]

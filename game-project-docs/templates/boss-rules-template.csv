@@ -1,0 +1,4 @@
+id,chapter,priority,conditions,boss_type,boss_scene,opening_line,notes
+glass_white_knight,glass_town,80,"official<=-20;order<=-5;truth_published=true",person_or_order,res://scenes/combat/boss_glass_white_knight.tscn,你揭开了真相，也点燃了这座城。,镇议会路线 Boss
+glass_crack_leader,glass_town,85,"exile<=-20;poor<=-10;truth_suppressed=true",person,res://scenes/combat/boss_crack_leader.tscn,你说你理解我们，却又一次让我们安静。,裂纹者路线 Boss
+glass_happiness_phantom,glass_town,95,"city_resident<=-15;fear_hero>=20",concept,res://scenes/combat/boss_happiness_phantom.tscn,我们只是想继续幸福，勇者大人。,概念 Boss，代表居民对真相和勇者的恐惧

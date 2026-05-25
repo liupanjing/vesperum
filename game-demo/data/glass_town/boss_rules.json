@@ -1,0 +1,38 @@
+[
+  {
+    "id": "glass_white_knight",
+    "chapter": "glass_town",
+    "priority": 80,
+    "conditions": [
+      { "ledger_tag": "official", "lte": -15 },
+      { "flag": "truth_published", "equals": true }
+    ],
+    "boss_type": "person_or_order",
+    "boss_scene": "res://scenes/combat/boss_glass_white_knight.tscn",
+    "opening_line": "你揭开了真相，也点燃了这座城。"
+  },
+  {
+    "id": "glass_crack_leader",
+    "chapter": "glass_town",
+    "priority": 85,
+    "conditions": [
+      { "ledger_tag": "exile", "lte": -10 },
+      { "flag": "truth_suppressed", "equals": true }
+    ],
+    "boss_type": "person",
+    "boss_scene": "res://scenes/combat/boss_crack_leader.tscn",
+    "opening_line": "你说你理解我们，却又一次让我们安静。"
+  },
+  {
+    "id": "glass_happiness_phantom",
+    "chapter": "glass_town",
+    "priority": 95,
+    "conditions": [
+      { "ledger_tag": "fear_hero", "gte": 12 },
+      { "visible_stat": "force", "gte": 8 }
+    ],
+    "boss_type": "concept",
+    "boss_scene": "res://scenes/combat/boss_happiness_phantom.tscn",
+    "opening_line": "我们只是想继续幸福，勇者大人。"
+  }
+]

@@ -1,0 +1,3 @@
+asset_path,asset_type,source_url,author,license,commercial_allowed,attribution_required,modifiable,notes
+assets/art/placeholder/tileset.png,tileset,https://kenney.nl/,Kenney,CC0,yes,no,yes,占位素材，发布前可继续使用但建议统一风格
+assets/audio/placeholder/click.wav,sfx,,self-made,own,yes,no,yes,自制 UI 音效

@@ -1,0 +1,4 @@
+id,chapter,choice_text,visible_delta,ledger_delta,required_flags,set_flags,clear_flags,followup,notes
+glass_publish_truth,glass_town,公开裂纹者制度的证据,"justice:+8;truth:+12;freedom:+6","poor:+12;exile:+18;official:-20;order:-8;city_resident:-10","has_crack_records","truth_published","","glass_public_unrest",玩家看似正义，但普通居民会承受动荡
+glass_suppress_truth,glass_town,暂时压下证据并要求镇议会补偿裂纹者,"stability:+10;order:+8;mercy:+4","official:+12;city_resident:+8;poor:-8;exile:-15;fear_hero:+3","has_crack_records","truth_suppressed","","glass_quiet_reform",保护短期安稳，但裂纹者认为被背叛
+glass_force_council,glass_town,威胁镇议会交出责任人，否则启动圣塔裁决,"justice:+6;force:+10;order:+4","official:-18;city_resident:+2;poor:+4;fear_hero:+15;order:+5","has_crack_records","council_threatened","","glass_council_surrenders",高效但扩散恐惧勇者标签

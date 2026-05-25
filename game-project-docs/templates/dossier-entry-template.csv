@@ -1,0 +1,4 @@
+id,type,title,known_summary,source,related_people,related_places,related_files,related_events,conflicts_with,notes
+person_glass_mayor,person,镇长,玻璃镇镇长，公开支持零犯罪率政策,欢迎仪式,glass_mayor,glass_council_hall,glass_happiness_report,glass_welcome,,玩家暂时只知道他的官方身份
+file_happiness_report,file,玻璃镇幸福指数报告,报告显示玻璃镇幸福指数连续五年上升,镇议会档案室,glass_mayor,glass_council_hall,,glass_statistics,file_tower_reading,与圣塔读数存在矛盾
+event_night_transport,event,夜间运输,夜晚有封闭车辆从居民区驶向地下入口,面包师证言,glass_baker,glass_backstreet,,glass_night_watch,,需要继续追踪

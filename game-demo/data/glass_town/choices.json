@@ -1,0 +1,65 @@
+[
+  {
+    "id": "glass_publish_truth",
+    "chapter": "glass_town",
+    "text": "公开裂纹者制度的证据。",
+    "visible_delta": {
+      "justice": 8,
+      "truth": 12,
+      "freedom": 6
+    },
+    "ledger_delta": {
+      "poor": 12,
+      "exile": 18,
+      "official": -20,
+      "order": -8,
+      "city_resident": -10
+    },
+    "required_flags": [],
+    "set_flags": ["truth_published"],
+    "clear_flags": [],
+    "notes": "玩家看似正义，但普通居民会承受动荡。"
+  },
+  {
+    "id": "glass_suppress_truth",
+    "chapter": "glass_town",
+    "text": "暂时压下证据，并要求镇议会补偿裂纹者。",
+    "visible_delta": {
+      "stability": 10,
+      "order": 8,
+      "mercy": 4
+    },
+    "ledger_delta": {
+      "official": 12,
+      "city_resident": 8,
+      "poor": -8,
+      "exile": -15,
+      "fear_hero": 3
+    },
+    "required_flags": [],
+    "set_flags": ["truth_suppressed"],
+    "clear_flags": [],
+    "notes": "保护短期安稳，但裂纹者认为自己再次被背叛。"
+  },
+  {
+    "id": "glass_force_council",
+    "chapter": "glass_town",
+    "text": "威胁镇议会交出责任人，否则启动圣塔裁决。",
+    "visible_delta": {
+      "justice": 6,
+      "force": 10,
+      "order": 4
+    },
+    "ledger_delta": {
+      "official": -18,
+      "city_resident": 2,
+      "poor": 4,
+      "fear_hero": 15,
+      "order": 5
+    },
+    "required_flags": [],
+    "set_flags": ["council_threatened"],
+    "clear_flags": [],
+    "notes": "高效，但扩散恐惧勇者标签。"
+  }
+]

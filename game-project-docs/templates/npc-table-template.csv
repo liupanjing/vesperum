@@ -1,0 +1,4 @@
+id,name,chapter,tags,base_attitude,role,first_seen,truth_level,notes
+glass_mayor,镇长,glass_town,"male;official;rich;order;beneficiary;father",10,主线关键 NPC,镇议会大厅,knows_core_secret,温和礼貌，相信牺牲少数人能保护多数人
+glass_crack_leader,裂纹者领袖,glass_town,"female;poor;exile;freedom;sacrificed;radical",-20,潜在 Boss,地下裂纹区,knows_core_secret,不信任勇者，可能走向暴力公开真相
+glass_baker,面包师,glass_town,"male;commoner;merchant;local;order;bystander",5,普通居民代表,镇中心广场,half_knows,知道有人消失，但不愿追问
